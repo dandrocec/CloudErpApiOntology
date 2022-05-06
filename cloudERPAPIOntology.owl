@@ -1,0 +1,1353 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://localhost:8080/cloudERPAPIOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://localhost:8080/cloudERPAPIOntology">
+    <Prefix name="" IRI="http://localhost:8080/cloudERPAPIOntology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Api"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BusinessFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloudCRM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloudERP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commerce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CustomerService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeleteRestHandler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ERPDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ErpFinanceOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ErpSalesOperation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseAccommodationsPolicesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseAirfarePoliciesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseBusinessUnitSettingsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseCashAdvancesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseConversionRateOptionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseCreditCardTransactionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseDelegationsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseDescriptiveFlexfieldContextsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseDescriptiveFlexfieldSegmentsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseDistributionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseLocationsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseMealsPoliciesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseMileagePoliciesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpensePerDiemCalculationsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpensePersonsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpensePreferencesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseProfileAttributesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseReportsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseScannedImagesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseTemplatesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpenseTypesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinanceERPDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GetRestHandler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanResources"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inventory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InvoiceApprovalsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InvoiceDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InvoiceHoldsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InvoiceTolerancesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JointVentureDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marketing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrderManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Output"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PayablesAndProcurementOptionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PayablesCalendarTypesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PayablesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PayablesDistributionSetsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PayablesIncomeTaxRegionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PayablesInvoiceHoldsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PayablesOptionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PayablesPaymentsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaymentProcessRequestsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaymentTermsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostRestHandler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProjectManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Purchasing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PutRestHandler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceivablesAdjustmentsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceivablesCreditMemosDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceivablesCustomerAccountActivitiesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceivablesCustomerAccountSiteActivitiesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceivablesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceivablesDisputesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceivablesInvoicesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelationshipManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RestHandler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RestService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Result"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalesERPDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ServiceType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoapService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupplyChainManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxAuthorityProfilesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxExemptionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxPartnerRegistrationsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxProductCategoriesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxRegistrationsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxReportingEntitiesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxTransactionBusinessCategoriesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxpayerIdentifiersDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TransactionTaxLinesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Variable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WarehouseManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WithholdingTaxLinesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#definesResource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHandler"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutput"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParameter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasResource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasResult"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDefinedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDescribedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProvidedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedInFunction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#providesService"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#apiName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#assumption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#effect"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#postCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#preCondition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#serviceName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#serviceTypeName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#serviceUrl"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#variableName"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OracleExpenseCashAdvancesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OracleExpenseCreditCardTransactionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OracleExpenseDistributionsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OracleExpenseLocationsDataObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OracleExpenseMealsPoliciesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OracleExpenseMileagePoliciesDataObject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OracleExpensePreferencesDataObject"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#CloudCRM"/>
+        <Class IRI="#SystemType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloudERP"/>
+        <Class IRI="#SystemType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commerce"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CustomerService"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeleteRestHandler"/>
+        <Class IRI="#RestHandler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ERPDataObject"/>
+        <Class IRI="#Resource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ErpFinanceOperation"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ErpSalesOperation"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseAccommodationsPolicesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseAirfarePoliciesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseBusinessUnitSettingsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseCashAdvancesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseConversionRateOptionsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseCreditCardTransactionsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseDataObject"/>
+        <Class IRI="#FinanceERPDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseDelegationsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseDescriptiveFlexfieldContextsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseDescriptiveFlexfieldSegmentsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseDistributionsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseLocationsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseMealsPoliciesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseMileagePoliciesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpensePerDiemCalculationsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpensePersonsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpensePreferencesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseProfileAttributesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseReportsDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseScannedImagesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseTemplatesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExpenseTypesDataObject"/>
+        <Class IRI="#ExpenseDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finance"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FinanceERPDataObject"/>
+        <Class IRI="#ERPDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GetRestHandler"/>
+        <Class IRI="#RestHandler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HumanResources"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input"/>
+        <Class IRI="#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inventory"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InvoiceApprovalsDataObject"/>
+        <Class IRI="#InvoiceDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InvoiceDataObject"/>
+        <Class IRI="#FinanceERPDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InvoiceHoldsDataObject"/>
+        <Class IRI="#InvoiceDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InvoiceTolerancesDataObject"/>
+        <Class IRI="#InvoiceDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JointVentureDataObject"/>
+        <Class IRI="#FinanceERPDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manufacturing"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marketing"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrderManagement"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Output"/>
+        <Class IRI="#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parameter"/>
+        <Class IRI="#Variable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PayablesAndProcurementOptionsDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PayablesCalendarTypesDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PayablesDataObject"/>
+        <Class IRI="#FinanceERPDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PayablesDistributionSetsDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PayablesIncomeTaxRegionsDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PayablesInvoiceHoldsDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PayablesOptionsDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PayablesPaymentsDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaymentProcessRequestsDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaymentTermsDataObject"/>
+        <Class IRI="#PayablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planning"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostRestHandler"/>
+        <Class IRI="#RestHandler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProjectManagement"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Purchasing"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PutRestHandler"/>
+        <Class IRI="#RestHandler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceivablesAdjustmentsDataObject"/>
+        <Class IRI="#ReceivablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceivablesCreditMemosDataObject"/>
+        <Class IRI="#ReceivablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceivablesCustomerAccountActivitiesDataObject"/>
+        <Class IRI="#ReceivablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceivablesCustomerAccountSiteActivitiesDataObject"/>
+        <Class IRI="#ReceivablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceivablesDataObject"/>
+        <Class IRI="#FinanceERPDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceivablesDisputesDataObject"/>
+        <Class IRI="#ReceivablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceivablesInvoicesDataObject"/>
+        <Class IRI="#ReceivablesDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelationshipManagement"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RestService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Result"/>
+        <Class IRI="#Parameter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sales"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SalesERPDataObject"/>
+        <Class IRI="#ERPDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ServiceManagement"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoapService"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupplyChainManagement"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxAuthorityProfilesDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxDataObject"/>
+        <Class IRI="#FinanceERPDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxExemptionsDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxPartnerRegistrationsDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxProductCategoriesDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxRegistrationsDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxReportingEntitiesDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxTransactionBusinessCategoriesDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxpayerIdentifiersDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TransactionTaxLinesDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WarehouseManagement"/>
+        <Class IRI="#BusinessFunction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WithholdingTaxLinesDataObject"/>
+        <Class IRI="#TaxDataObject"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#ExpenseCashAdvancesDataObject"/>
+        <NamedIndividual IRI="#OracleExpenseCashAdvancesDataObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpenseCreditCardTransactionsDataObject"/>
+        <NamedIndividual IRI="#OracleExpenseCreditCardTransactionsDataObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpenseDistributionsDataObject"/>
+        <NamedIndividual IRI="#OracleExpenseDistributionsDataObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpenseLocationsDataObject"/>
+        <NamedIndividual IRI="#OracleExpenseLocationsDataObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpenseMealsPoliciesDataObject"/>
+        <NamedIndividual IRI="#OracleExpenseMealsPoliciesDataObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpenseMileagePoliciesDataObject"/>
+        <NamedIndividual IRI="#OracleExpenseMileagePoliciesDataObject"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpensePreferencesDataObject"/>
+        <NamedIndividual IRI="#OracleExpensePreferencesDataObject"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <NamedIndividual IRI="#OracleExpenseCashAdvancesDataObject"/>
+        <Literal>/fscmRestApi/resources/11.13.18.05/expenseCashAdvances</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <NamedIndividual IRI="#OracleExpenseCreditCardTransactionsDataObject"/>
+        <Literal>/fscmRestApi/resources/11.13.18.05/expenseCreditCardTransactions</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <NamedIndividual IRI="#OracleExpenseDistributionsDataObject"/>
+        <Literal>/fscmRestApi/resources/11.13.18.05/expenseDistributions</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <NamedIndividual IRI="#OracleExpenseLocationsDataObject"/>
+        <Literal>/fscmRestApi/resources/11.13.18.05/expenseLocations</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <NamedIndividual IRI="#OracleExpenseMealsPoliciesDataObject"/>
+        <Literal>/fscmRestApi/resources/11.13.18.05/expenseMealsPolicies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <NamedIndividual IRI="#OracleExpenseMileagePoliciesDataObject"/>
+        <Literal>/fscmRestApi/resources/11.13.18.05/expenseMileagePolicies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <NamedIndividual IRI="#OracleExpensePreferencesDataObject"/>
+        <Literal>/fscmRestApi/resources/11.13.18.05/expensePreferences</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesOperation"/>
+        <Class IRI="#Api"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#definesResource"/>
+        <Class IRI="#Api"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHandler"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInput"/>
+        <Class IRI="#Operation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutput"/>
+        <Class IRI="#Operation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParameter"/>
+        <Class IRI="#Operation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasResource"/>
+        <Class IRI="#RestService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasResult"/>
+        <Class IRI="#Operation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDefinedIn"/>
+        <Class IRI="#Operation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProvidedBy"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsedInFunction"/>
+        <Class IRI="#ERPDataObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#providesService"/>
+        <Class IRI="#Provider"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesOperation"/>
+        <Class IRI="#Operation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#definesResource"/>
+        <Class IRI="#ERPDataObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHandler"/>
+        <Class IRI="#RestHandler"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInput"/>
+        <Class IRI="#Input"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOutput"/>
+        <Class IRI="#Output"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParameter"/>
+        <Class IRI="#Parameter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasResource"/>
+        <Class IRI="#Resource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasResult"/>
+        <Class IRI="#Result"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasType"/>
+        <Class IRI="#ServiceType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDefinedIn"/>
+        <Class IRI="#Api"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDescribedBy"/>
+        <Class IRI="#ServiceDescription"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProvidedBy"/>
+        <Class IRI="#Provider"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsedInFunction"/>
+        <Class IRI="#BusinessFunction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#providesService"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#apiName"/>
+        <Class IRI="#Api"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#assumption"/>
+        <Class IRI="#ServiceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#effect"/>
+        <Class IRI="#ServiceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <Class IRI="#ERPDataObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Provider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#postCondition"/>
+        <Class IRI="#ServiceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#preCondition"/>
+        <Class IRI="#ServiceDescription"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serviceName"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serviceTypeName"/>
+        <Class IRI="#ServiceType"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#serviceUrl"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#variableName"/>
+        <Class IRI="#Variable"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#apiName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#assumption"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#effect"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#erpDataObjectUrl"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#postCondition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#preCondition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#serviceName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#serviceTypeName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#serviceUrl"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#variableName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BusinessFunction</IRI>
+        <Literal>Initial list adopted from - Microsoft Dynamics 365 business functionalities - https://docs.microsoft.com/en-us/dynamics365/business-central/across-business-functionality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Commerce</IRI>
+        <Literal>Dynamics 365 Commerce—built on the proven Dynamics 365 Retail capabilities—delivers a comprehensive omnichannel solution that unifies back-office, in-store, call center, and digital experiences</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DeleteRestHandler</IRI>
+        <Literal>Delete the target resource’s state.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ERPDataObject</IRI>
+        <Literal>Data object stored in ERP system, e.g. Bank, Product...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ERPDataObject</IRI>
+        <Literal>https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2016/developers-guide/mt607894(v=crm.8)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseAccommodationsPolicesDataObject</IRI>
+        <Literal>The expense accommodations policies resource is used to contain details of all accommodations expense policies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseAirfarePoliciesDataObject</IRI>
+        <Literal>The expense airfare policies resource is used to view airfare expense policies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseBusinessUnitSettingsDataObject</IRI>
+        <Literal>The expense business unit settings resource is used to get user entered setup options.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseCashAdvancesDataObject</IRI>
+        <Literal>The cash advance resource is used to manage all employee cash advances, which includes creation, update, deletion, and selection.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseConversionRateOptionsDataObject</IRI>
+        <Literal>The expense conversion rate options resource is used to provide conversion rate policies for business units.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseCreditCardTransactionsDataObject</IRI>
+        <Literal>The expense credit card transactions resource is used to describe all corporate card transactions of an employee. Only a selection of employee corporate card transactions are currently supported by this resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseDataObject</IRI>
+        <Literal>Different expenses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseDataObject</IRI>
+        <Literal>The expenses resource is a parent resource that contains all the expense information incurred by an employee.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseDelegationsDataObject</IRI>
+        <Literal>The delegations resource is used to manage all information related to delegation that describes authorized delegation between employees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseDescriptiveFlexfieldContextsDataObject</IRI>
+        <Literal>The expense descriptive flexfield contexts resource is used for expenses and expense reports.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseDescriptiveFlexfieldSegmentsDataObject</IRI>
+        <Literal>The expense descriptive flexfield segments resource is used for expenses and expense reports.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseDistributionsDataObject</IRI>
+        <Literal>The expense distributions resource is a child resource that contains distribution information about an expense item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseLocationsDataObject</IRI>
+        <Literal>Expense locations resource is used to provide data that represents physical geographies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseMealsPoliciesDataObject</IRI>
+        <Literal>The expense meals policies resource is used to get all meals expense policies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseMileagePoliciesDataObject</IRI>
+        <Literal>The expense mileage policies resource is used to get all mileage-related policies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpensePersonsDataObject</IRI>
+        <Literal>The expense persons resource is used to get details like BU name and currency name for a person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpensePreferencesDataObject</IRI>
+        <Literal>The expense preferences resource is used to get a person&apos;s expense preferences record.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseProfileAttributesDataObject</IRI>
+        <Literal>The expense profile attributes resource is used to get a person&apos;s expense profile attributes record.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseReportsDataObject</IRI>
+        <Literal>The expense reports resource contains information about an expense report.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseScannedImagesDataObject</IRI>
+        <Literal>The expense scanned images resource uploads images to the image recognition application and obtains receipt details.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseTemplatesDataObject</IRI>
+        <Literal>The expense templates resource is used to group sets of expense types by business unit for purposes such as Education, Travel, and Relocation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ExpenseTypesDataObject</IRI>
+        <Literal>The expense types resource is used to define an expense report template and the associated corporate expense policies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Finance</IRI>
+        <Literal>Make and collect payments, manage your cash flow, defer income and revenue, prepare year-end closing, and manage fixed assets.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FinanceERPDataObject</IRI>
+        <Literal>From REST API for Oracle Financials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GetRestHandler</IRI>
+        <Literal>Get a representation of the target resource’s state.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HumanResources</IRI>
+        <Literal>Keep detailed records of your employees, and register absence for analysis purposes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Inventory</IRI>
+        <Literal>Register new inventory or service-type items, categorize items for easy searching, adjust inventory levels, and perform common inventory costing tasks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InvoiceApprovalsDataObject</IRI>
+        <Literal>The payables invoice approvals and notifications history resource is used to view invoice approvals and holds resolution related actions and notifications history information.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InvoiceDataObject</IRI>
+        <Literal>The payables invoices resource is used to manage details about supplier invoices, that includes header, lines, distributions, installments, descriptive flexfields, global descriptive flexfields, and attachments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InvoiceHoldsDataObject</IRI>
+        <Literal>The payables invoice holds resource is used to manage details about the holds placed and released on invoices. An invoice hold represents a hold that is placed on an invoice so that the invoice cannot be paid until the hold is released.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#InvoiceTolerancesDataObject</IRI>
+        <Literal>The invoice tolerances resource is used to manage the details for the tolerance levels that are applied to invoices. Tolerances are used when matching to a purchase order or receipt and the appropriate invoice variance is created.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Marketing</IRI>
+        <Literal>Real-time marketing and outbound marketing functionality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrderManagement</IRI>
+        <Literal>Dynamics 365 Intelligent Order Management - help your organization coordinate, standardize, and optimize orders captured in a mix of channels and systems through a single point of order orchestration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PayablesAndProcurementOptionsDataObject</IRI>
+        <Literal>The payables and procurement options resource contains options and defaults that are shared between the Payables and Purchasing applications.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PayablesCalendarTypesDataObject</IRI>
+        <Literal>The payables calendar types resource is used to manage details about calendar types that are used for general purpose like Recurring Invoice Calendars, Withholding Calendars, or special purposes such as a payment term calendar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PayablesIncomeTaxRegionsDataObject</IRI>
+        <Literal>The payables income tax regions resource is used to manage details about income tax regions that are used to record payment information for 1099 suppliers and used in 1099 reporting to the tax authorities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PayablesInvoiceHoldsDataObject</IRI>
+        <Literal>The payables invoice holds resource is used to manage the information about invoice holds. Detailed information about the various attributes of each hold is provided.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Planning</IRI>
+        <Literal>Plan the production operations that are required to transform inputs into finished goods.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PostRestHandler</IRI>
+        <Literal>Let the target resource process the representation enclosed in the request.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProjectManagement</IRI>
+        <Literal>Create jobs and schedule resources for project, manage job budgets, monitor progress, and track machine and employee hours.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Purchasing</IRI>
+        <Literal>Manage purchasing processes and information, such as invoices, orders, returns, and vendor accounts, and purchase items from sales documents.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PutRestHandler</IRI>
+        <Literal>Create or replace the state of the target resource with the state defined by the representation enclosed in the request.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReceivablesAdjustmentsDataObject</IRI>
+        <Literal>The receivables adjustments resource is used to reduce or increase the value of a transaction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReceivablesCreditMemosDataObject</IRI>
+        <Literal>The receivables credit memos resource is used to get and find a receivables credit memo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReceivablesCustomerAccountActivitiesDataObject</IRI>
+        <Literal>The resource that provides details of a customer and its associated accounts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReceivablesCustomerAccountSiteActivitiesDataObject</IRI>
+        <Literal>The resource that provides details of a customer, and the associated accounts and billing sites.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReceivablesDisputesDataObject</IRI>
+        <Literal>The receivables disputes resource provides details of disputes created on a transaction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RelationshipManagement</IRI>
+        <Literal>Manage and support your sales efforts and focus your interactions on preferred customers and contacts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sales</IRI>
+        <Literal>Manage sales processes and information, such as quotes, orders, returns, and customer accounts, and make drop shipments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ServiceManagement</IRI>
+        <Literal>Schedule service calls and set up service orders, and track repair parts and supplies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxAuthorityProfilesDataObject</IRI>
+        <Literal>The tax authority profiles resource is used to query tax authority profiles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxExemptionsDataObject</IRI>
+        <Literal>The tax exemptions resource is used to query, update, and create tax exemptions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxPartnerRegistrationsDataObject</IRI>
+        <Literal>The tax partner registrations resource is used to create a tax partner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxProductCategoriesDataObject</IRI>
+        <Literal>The tax product categories resource is used to retrieve existing product categories.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxRegistrationsDataObject</IRI>
+        <Literal>The tax registrations resource is used to query, update, and create tax registrations.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxTransactionBusinessCategoriesDataObject</IRI>
+        <Literal>The tax transaction business categories resource is used to retrieve transaction business categories.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TaxpayerIdentifiersDataObject</IRI>
+        <Literal>The taxpayer identifiers resource is used to query, update, and create taxpayer identifiers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TransactionTaxLinesDataObject</IRI>
+        <Literal>The transaction tax lines resource is used to get, insert, and update a manual tax line.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WarehouseManagement</IRI>
+        <Literal>Ensure an effective flow of goods that are received and shipped.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WithholdingTaxLinesDataObject</IRI>
+        <Literal>The withholding tax lines resource is used to view, create and update a withholding tax line.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
